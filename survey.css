@@ -29,3 +29,10 @@ input, select {
 textarea {
   width: 100%;
 }
+label {
+  display: block;
+}
+h1, p {
+  text-align: center;
+}
+
