@@ -2,10 +2,11 @@
   <html lang="en">
     <head><meta charset="UTF-8"><title>freeCodeCamp Survey Form</title><link rel="stylesheet" href="survey.css"></head>
     <body>
+
       <h1>freeCodeCamp Survey Form</h1>
       <p id="description">Thank you for taking the time to help us improve the platform</p>
       <h1 id="title">Survey Form</h1> <p id="description">A short survey to help us improve our service.</p> 
-      <form>
+      <form action="survey.php" method="POST">
         <fieldset class="man">
 <label id="name-label" for="name">Your name:</label> <input type="text" id="name" name="name" placeholder="Enter your name..." required>
 
@@ -20,7 +21,7 @@
 
 <p>
   Would you recommend freeCodeCamp to a friend?</p><fieldset>
-        <label> Would you recommend freeCodeCamp to a friend?</label>
+        <<label> Would you recommend freeCodeCamp to a friend?</label>
           <label><input type="radio" class="inline" name="attribute" value="1" checked /> Definitely</label>
           <label><input type="radio" class="inline" name="attribute" value="2" /> Maybe</label>
           <label><input type="radio" class="inline" name="attribute" value="3" /> Not sure</label>
@@ -30,5 +31,5 @@
 
 
 
-<p>What would you like to see improved? <span>(Check all that apply)</span></p> <input id="checkbox1" type="checkbox" name="features" value="feature1"> <label for="checkbox1"> Website content</label> <input id="checkbox2" type="checkbox" name="features" value="feature2"> <label for="checkbox2"> Customer service</label> <textarea>name="comment" rows="8" cols="80" placeholder="Enter your comments here..."></textarea> <input id="submit" type="submit" value="Submit"> </form>
+<p>What would you like to see improved? <span>(Check all that apply)</span></p><fieldset> <input id="checkbox1" type="checkbox" name="features" value="feature1"> <label for="checkbox1"> Website content</label> <input id="checkbox2" type="checkbox" name="features" value="feature2"> <label for="checkbox2"> Customer service</label></fieldset> <textarea name="comment" rows="8" cols="80" placeholder="Enter your comments here..."></textarea> <input id="submit" type="submit" value="Submit"> </form>
     </html>
