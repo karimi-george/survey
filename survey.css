@@ -35,4 +35,13 @@ label {
 h1, p {
   text-align: center;
 }
+body {
+  background-image: url("https://t4.ftcdn.net/jpg/01/64/37/35/240_F_164373509_V2qqmZuSVW1Wrtp6LpW1YVvABdr12cAO.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  color: rgb(245, 255, 250);
+  font-family: Perpetua;
+  font-size: 24px;
+}
 
